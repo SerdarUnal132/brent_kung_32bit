@@ -20,7 +20,8 @@ G(i) = A(i) AND B(i); for i = 0, 1, ... 31,
 P(i) = A(i) XOR B(i); for i = 0, 1, ... 31.
 
 Then, black cells and grey cells are used to obtain intermediate values from the G and P values. At the final stage, the values are passed through the post-processing stage to find the overall result.
-![Block Diagram](../../tree/main/images/BrentKung_diagram.png)
+
+<img src="images/BrentKung_diagram.png" width="600" height="300">
 
                                   Figure 1: Block Diagram [3]
 
